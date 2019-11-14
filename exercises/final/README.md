@@ -1,4 +1,4 @@
-##Donaldson Final Design Document
+# Donaldson Final Design Document
 ### Gameplay description 
 The game will walk through an educational lesson on lighting design including types of lights, hanging & focusing, color theory, design, and plotting. 
 ### Input
@@ -8,7 +8,7 @@ Basic and informative. Care should be taken on rendering the light output.
 ### Audio style
 Simple clicks and mechanical noises to match gameplay.
 ### Interface sketches
-
+![](README_images/1a.PNG)
 
 ### Bars
 *The “low-bar “of you will create (this should still be a “complete game”)
