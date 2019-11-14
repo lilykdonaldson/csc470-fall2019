@@ -19,11 +19,11 @@ Simple clicks and mechanical noises to match gameplay.
 ![](README_images/9a.PNG)
 
 ### Bars
-*The “low-bar “of you will create (this should still be a “complete game”)
+* The “low-bar “of you will create (this should still be a “complete game”)
 All tasks except hanging and focusing and plotting (as these will be more interactive).
-*A target that you expect to get done
+* A target that you expect to get done
 All tasks (types of lights, hanging & focusing, color theory, design, and plotting)
-*a desired high-bar if things go exceptionally well. Plan these out carefully, so that you can definitely achieve the first goal, and likely hit the second
+* a desired high-bar if things go exceptionally well. Plan these out carefully, so that you can definitely achieve the first goal, and likely hit the second
 It would be cool to set up some of the tasks (especially hanging/focus) in VR (in the SPRI lab).
 
 ### A timeline of what you need to accomplish and by when to complete your game on time. Look at the personal schedules, your classes and other projects, and plan accordingly.
