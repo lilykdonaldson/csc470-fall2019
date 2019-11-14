@@ -9,6 +9,14 @@ Basic and informative. Care should be taken on rendering the light output.
 Simple clicks and mechanical noises to match gameplay.
 ### Interface sketches
 ![](README_images/1a.PNG)
+![](README_images/2a.PNG)
+![](README_images/3a.PNG)
+![](README_images/4a.PNG)
+![](README_images/5a.PNG)
+![](README_images/6a.PNG)
+![](README_images/7a.PNG)
+![](README_images/8a.PNG)
+![](README_images/9a.PNG)
 
 ### Bars
 *The “low-bar “of you will create (this should still be a “complete game”)
