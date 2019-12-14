@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class addLight : MonoBehaviour
 {
     public GameObject E11;
-    public bool E11b = true;
+    static bool E11b = true;
 
     public GameObject E21;
     public GameObject E22;
@@ -79,15 +79,16 @@ public class addLight : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        UpdateLights();
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("mouse");
+           
             CastRay();
         }
 
@@ -175,7 +176,7 @@ public class addLight : MonoBehaviour
             switch (results[results.Count - 3].gameObject.name)
             {
                 case "B1 1":
-                    Debug.Log("here");
+
                     if (B11b == true)
                     {
                         B11b = false;
@@ -405,4 +406,30 @@ void UpdateHits()
         PlayerPrefs.SetInt("B43b", B43b ? 1 : 0);
         PlayerPrefs.SetInt("B44b", B44b ? 1 : 0);
     }
+
+    void UpdateLights()
+    {
+        E11b = System.Convert.ToBoolean(PlayerPrefs.GetInt("E11b"));
+        E21b = System.Convert.ToBoolean(PlayerPrefs.GetInt("E21b"));
+        E22b = System.Convert.ToBoolean(PlayerPrefs.GetInt("E22b"));
+        E31b = System.Convert.ToBoolean(PlayerPrefs.GetInt("E31b"));
+        E32b = System.Convert.ToBoolean(PlayerPrefs.GetInt("E32b"));
+        B11b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B11b"));
+        B12b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B12b"));
+        B13b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B13b"));
+        B14b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B14b"));
+        B21b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B21b"));
+        B22b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B22b"));
+        B23b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B23b"));
+        B24b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B24b"));
+        B31b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B31b"));
+        B32b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B32b"));
+        B33b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B33b"));
+        B34b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B34b"));
+        B41b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B41b"));
+        B42b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B42b"));
+        B43b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B43b"));
+        B44b = System.Convert.ToBoolean(PlayerPrefs.GetInt("B44b"));
+    }
+
 }

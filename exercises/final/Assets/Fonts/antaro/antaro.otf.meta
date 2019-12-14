@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c2fa693cfc205449082cc7112f691cc1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Antaro
+  fontNames:
+  - Antaro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9cf01aa19c3784f15abf2e95d71cc03a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

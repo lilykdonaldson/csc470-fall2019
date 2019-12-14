@@ -27,7 +27,7 @@ public class selectSwatchbook : MonoBehaviour
 
     void CastRay()
     {
-        Debug.Log("cast ray");
+        //Debug.Log("cast ray");
        //if (Input.GetMouseButtonDown(0))
        //{
             PointerEventData pointerData = new PointerEventData(EventSystem.current);
@@ -41,8 +41,6 @@ public class selectSwatchbook : MonoBehaviour
             {
             if (results[0].gameObject.layer == LayerMask.NameToLayer("UI"))
             {
-                Debug.Log(results[0].gameObject.layer);
-                Debug.Log(results[results.Count - 1].gameObject.name);
                 if (results[results.Count - 1].gameObject.name == "swatchbook")
                 {
                     //Debug.Log("in");
