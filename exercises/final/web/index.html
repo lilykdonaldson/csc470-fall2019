@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | final</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web.json", {onProgress: UnityProgress});
-    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">final</div>
-      </div>
-    </div>
+  <body oncontextmenu="return false;">
+    <h1>Digital Stagelighting Practice - CSC 470 Final</h1>
+    <p>This Unity game is an opportunity to play with stage lighting design.
+      You can turn available lights on and off and change lights' color filters and spot angles through the simplified CAD (Computer Aided Design) lighting plot.
+      Then, you can see what your edits look like on a 3d stage.</p>
+
+      <h2>Gameplay Video</h2>
+      <div id="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/mUwOfUvTWNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      
+      <h2>Background</h2>
+      <p>The CAD portion is setup like a real lighting plot.</p>
+      <figure>
+      <div id="center"><img width="700" src='https://i1.wp.com/lilykdonaldson.com/wp-content/uploads/2018/02/Witness-Light-Plot.jpg?zoom=2&w=1080&ssl=1' alt='vellum plot' />
+      <figcaption>A Vellum plot</figcaption>
+    </figure>
+    <figure>
+      <img width="700" src='https://i0.wp.com/lilykdonaldson.com/wp-content/uploads/2018/02/Zombie-Prom-2017-Lily-Donaldson-2-page-001-1.jpg?zoom=2&w=1080&ssl=1' alt='vellum plot' />
+      <figcaption>A CAD plot</figcaption>
+    </figure></div>
+
+      <h2>Play</h2>
+<iframe width="1024" height="768" src="https://lilykdonaldson.github.io/csc470-fall2019/exercises/final/web/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h2>More information</h2>
+      <p>You can't 'win' this game. It's more about artistic expression. I was inspired to create it this way by the main games I played as a child, 'dress-up games.' They were essentially digital paperdolls. This game is like digital vellum for you to make your own lighting plot and automatically see what it looks like onstage. The concept of this game could be expounded into a real WYSISYG tool for lighting designers if hooked up to VectorWorks or AutoCAD, but this rendition is just for fun!</p>
+      <p>The best part of lighting design in this game is that the actors do not move so you do not have to deal with them.</p>
+
   </body>
 </html>

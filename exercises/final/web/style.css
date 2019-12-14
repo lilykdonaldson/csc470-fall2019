@@ -1,0 +1,15 @@
+body {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 120px;
+}
+h1{
+	text-align: center;
+}
+h2{
+	color: #000080;
+}
+.center{
+	margin: auto;
+	text-align: center;
+}
