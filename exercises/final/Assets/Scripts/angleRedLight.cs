@@ -19,9 +19,9 @@ public class angleRedLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lt.spotAngle = angleSlider.value;
-        Color x = Color.HSVToRGB(colorSlider.value, 1, 1);
-        lt.color = x;
+        //lt.spotAngle = angleSlider.value;
+        //Color x = Color.HSVToRGB(colorSlider.value, 1, 1);
+        //lt.color = x;
     }
 
 }
